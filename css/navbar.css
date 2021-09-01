@@ -23,16 +23,16 @@
 .logo img {
   height: 40px; }
 
-.navigation .link .active {
-  background: #0d0d0d;
-  color: #4d4d4d; }
-
 .navigation .link .icon {
   padding: 0em; }
 
+.navigation .active {
+  border-radius: 10px;
+  background: #404040; }
+
 .navigation a:hover {
   border-radius: 10px;
-  background: #1a1a1a;
+  background: #262626;
   color: #b3b3b3; }
 
 @media all and (max-width: 800px) {
