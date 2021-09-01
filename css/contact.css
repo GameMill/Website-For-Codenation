@@ -1,0 +1,15 @@
+.Container {
+  color: #1a1a1a;
+  justify-content: center; }
+
+.Container a {
+  color: #b3b3b3; }
+
+.items address {
+  margin: 40px;
+  text-align: left; }
+
+.Map {
+  margin-top: 5px;
+  height: 400px;
+  width: 380px; }
