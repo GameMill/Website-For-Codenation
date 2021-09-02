@@ -14,3 +14,39 @@
   font-weight: bolder;
   border-radius: 5px;
   text-align: center; }
+
+.header-box {
+  color: #4d4d4d;
+  text-align: center; }
+
+.story-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch; }
+
+.items-box ul {
+  text-align: left; }
+
+@media all and (min-width: 0px) {
+  .box2 {
+    margin: 5px 0px 5px 0px; }
+  .box1 {
+    width: 100%; }
+  .box2 {
+    width: 100%; }
+  .box1 img {
+    width: 100%; } }
+
+@media all and (min-width: 800px) {
+  .box1 {
+    width: 49%; }
+  .box2 {
+    width: 49%; }
+  .box1 img {
+    width: 95%; } }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #000;
+  /*color: lightgray;*/ }
