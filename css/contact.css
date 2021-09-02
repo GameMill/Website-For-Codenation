@@ -13,3 +13,7 @@
   margin-top: 5px;
   height: 400px;
   width: 380px; }
+
+.note {
+  text-align: center;
+  color: gray; }

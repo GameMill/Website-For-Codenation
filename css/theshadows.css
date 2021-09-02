@@ -1,3 +1,16 @@
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/HighresScreenshot00002.jpg");
   min-height: 15em; }
+
+.story {
+  width: 100%; }
+
+.story-header {
+  margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+  background: #1a1a1a;
+  color: #4d4d4d;
+  font-weight: bolder;
+  border-radius: 5px;
+  text-align: center; }
