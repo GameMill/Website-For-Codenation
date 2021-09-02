@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley&display=swap");
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/HighresScreenshot00002.jpg");
   min-height: 15em; }
 
 .story {
   width: 100%; }
+
+.story p {
+  width: 95%; }
 
 .story-header {
   margin: 10px;
@@ -27,23 +31,31 @@
 .items-box ul {
   text-align: left; }
 
+.box2 {
+  font-family: 'Besley', serif;
+  color: gray; }
+
 @media all and (min-width: 0px) {
-  .box2 {
-    margin: 5px 0px 5px 0px; }
   .box1 {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .box2 {
-    width: 100%; }
+    width: 100%;
+    padding-left: 20px;
+    margin: 5px 0px 5px 0px; }
   .box1 img {
-    width: 100%; } }
+    width: 95%; } }
 
 @media all and (min-width: 800px) {
   .box1 {
-    width: 49%; }
+    width: 50%; }
   .box2 {
-    width: 49%; }
+    width: 50%;
+    padding-left: 0px;
+    text-align: left; }
   .box1 img {
-    width: 95%; } }
+    width: 95%;
+    max-width: 700px; } }
 
 body {
   padding: 0px;
