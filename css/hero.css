@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/pexels-andrew-neel-3166835.jpg");
-  min-height: 25em;
+  min-height: 15em;
   height: 50%;
   align-self: center;
   background-repeat: no-repeat;
